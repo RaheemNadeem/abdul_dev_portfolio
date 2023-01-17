@@ -88,6 +88,7 @@ border-bottom: 1px solid rgba(238, 238, 238, 0.1);
     grid-column: 1/2;
     margin-left: 1rem;
     margin-top: 0.5rem;
+    height: 100%;
 }
 
 .arrow-down{
@@ -146,3 +147,26 @@ border-bottom: 1px solid rgba(238, 238, 238, 0.1);
 .recent-works-buttons:nth-child(even){
     margin:0 0.6rem;
 }
+
+.hero-section{
+    overflow: hidden;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+@media (max-width: 399px) {
+    html{
+        font-size: 11px;
+    }
+  }
+
+
+  @media (min-width:300px) and (max-width:398px) {
+    .arrow-curver-hero{
+        margin-top: -0.5rem;
+        margin-left: 37%;
+        height: 110%;
+    }
+  } 
