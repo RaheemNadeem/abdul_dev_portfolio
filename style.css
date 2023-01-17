@@ -156,6 +156,41 @@ border-bottom: 1px solid rgba(238, 238, 238, 0.1);
     overflow: hidden;
 }
 
+.contact-section {
+    margin-top: 11.53rem;
+}
+
+.contact-section img{
+    width: 80%;
+}
+
+.contact-section label{
+    font-size: 1.3rem;
+    color: rgba(238, 238, 238, 1);
+    font-family: poppins-bold;
+    display: block;
+    margin-bottom: 1.46rem;
+}
+
+.contact-section input,textarea{
+    height: 5.46rem;
+    background-color: rgba(57, 62, 70, 0.5);
+    color: rgba(238, 238, 238, 0.5);
+    font-family: poppins-bold;
+    font-size: 1.3rem;
+    width: 100%;
+    padding-left: 1.84rem;
+    padding-top: 1.23rem;
+    padding-bottom: 2.15rem;
+    border-radius: 1.23rem;
+    border: none;
+    margin-bottom: 2.07rem;
+}
+
+.contact-section textarea{
+    height: unset;
+}
+
 @media (max-width: 399px) {
     html{
         font-size: 13px;
@@ -185,7 +220,27 @@ border-bottom: 1px solid rgba(238, 238, 238, 0.1);
   @media (min-width:300px) and (max-width:398px) {
     .arrow-curver-hero{
         margin-top: -0.5rem;
-        margin-left: 37%;
-        height: 110%;
+        margin-left: 21%;
+        height: 105%;
+    }
+
+    
+  }
+
+  @media (min-width:350px) and (max-width:398px) {
+    .arrow-curver-hero{
+        margin-top: -0.5rem;
+        margin-left: 31%;
+        height: 105%;
+    }
+
+    
+  }
+
+  @media (min-width:400px) {
+    html{
+        font-size: 19px;
     }
   }
+    
+  
