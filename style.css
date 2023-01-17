@@ -158,7 +158,26 @@ border-bottom: 1px solid rgba(238, 238, 238, 0.1);
 
 @media (max-width: 399px) {
     html{
+        font-size: 13px;
+    }
+    
+    .hero-section{
         font-size: 11px;
+    }
+
+    .-hero-heading-css-over-rule{
+        font-size: 2.81em;
+        line-height: 1em;
+    }
+
+    .-hero-buttons-css-over-rule{
+        border-radius: 0.6em;
+        padding:0.3rem 1em;
+        font-size: 0.6em;
+    }
+
+    .arrow-curver-hero{
+        height:100%;
     }
   }
 
@@ -169,4 +188,4 @@ border-bottom: 1px solid rgba(238, 238, 238, 0.1);
         margin-left: 37%;
         height: 110%;
     }
-  } 
+  }
