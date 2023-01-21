@@ -8,23 +8,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="nav-bar">
-        <img src="images/logo.svg" alt="" class="logo">
-    </div>
-    <div class="container theme-color">
-        <section class="hero-section">
-            <img src="Images/Hero-image.svg" alt="" class=" hero-image width-100pc">
+    <header>
+        <nav class="nav-bar">
+            <img src="images/logo.svg" alt="Logo">
+        </nav>
+    </header>
+    <div class="container">
+        <section class="over-flow-hidden">
+            <img src="images/Hero-image.svg" alt="" class="width-100pc hero-image">
             <div class="hero-content">
-                <img src="Images/arrow_curved.svg" alt="" class="arrow-curver-hero">
-                <h2 class="hero-heading  -hero-heading-css-over-rule">CREATIVE UI <span class="color-blue">DEVELOPER</span></h2>
-                <button class="hero-buttons -hero-buttons-css-over-rule hire-me">
-                    Hire me
-                </button>
-                <button class="hero-buttons -hero-buttons-css-over-rule download-cv">
-                    Download CV
-                </button>
+                <img src="images/arrow_curved.svg" alt="">
+                <div>
+                    <h2>CREATIVE UI <span class="color-blue">DEVELOPER</span></h2>
+                    <div class="hero-buttons-cont">
+                        <button class="hero-buttons hire-me">Hire me</button>
+                        <button class="hero-buttons download-cv">Download CV</button>
+                    </div>
+                </div>
             </div>
-
             <div class="arrow-down">
                 <img src="Images/hero-down-arrow.svg" alt="">
             </div>
@@ -46,8 +47,8 @@
             <img src="images/lightbulb.svg" alt="" class="light-bulb">
             </div>
         </section>
-
         <img src="images/about-me-arrow.svg" alt="" class="about-me-arrow">
+
         <section>
             <div class="recent-works-content">
                 <h2 class="hero-heading about-me-heading recent-works-heading">My recent 
@@ -57,10 +58,10 @@
                 </h2>
 
                 <div>
-                    <button class="hero-buttons hire-me recent-works-buttons">All</button>
-                    <button class="hero-buttons download-cv recent-works-buttons">UI</button>
-                    <button class="hero-buttons download-cv recent-works-buttons">UX</button>
-                    <button class="hero-buttons download-cv recent-works-buttons">Web Design</button>
+                    <button class=" hire-me recent-works-buttons">All</button>
+                    <button class=" download-cv recent-works-buttons">UI</button>
+                    <button class=" download-cv recent-works-buttons">UX</button>
+                    <button class=" download-cv recent-works-buttons">Web Design</button>
                 </div>
 
             </div>
@@ -79,7 +80,7 @@
             <label for="name">Your email</label>
             <input type="text" name="name" id="" placeholder="Email">
             <label for="name">Your message</label>
-            <textarea name="message" id="" cols="30" rows="5" placeholder="Message"></textarea>
+            <textarea name="message" id="" cols="30" rows="3" placeholder="Message"></textarea>
         </section>
 
         <footer class="footer-section">
@@ -89,7 +90,7 @@
                     <p>Home</p>
                 </div>
                 <div class="footer-nav-link">
-                    <img src="Images/user.svg" alt="">
+                    <img src="Images/user.svg" alt="" class="user-icon">
                     <p>About me</p>
                 </div>
                 <div class="footer-nav-link">
@@ -106,6 +107,7 @@
             </div>
             <p>Terms of Service - Privacy Policy</p>
         </footer>
+
     </div>
 </body>
 </html>
