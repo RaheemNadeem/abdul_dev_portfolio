@@ -202,23 +202,23 @@ html{
 }
 
 .contact-section label{
-    font-size: 0.7rem;
+    font-size: 0.7em;
     color: rgba(238, 238, 238, 1);
     font-family: poppins-bold;
     display: block;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.2em;
 }
 
 .contact-section input,textarea{
     background-color: rgba(57, 62, 70, 0.5);
     color: rgba(238, 238, 238, 0.5);
     font-family: poppins-bold;
-    font-size: 0.7rem;
+    font-size: 0.7em;
     width: 100%;
-    padding-left: 1rem;
-    padding-right: 1.84rem;
-    padding-top: 0.7rem;
-    padding-bottom: 0.85rem;
+    padding-left: 1.4em;
+    padding-right: 2.6em;
+    padding-top: 1em;
+    padding-bottom: 1.2em;
     border-radius: 0.4rem;
     border: none;
     margin-bottom: 1.07rem;
@@ -435,20 +435,49 @@ html{
 
     .contact-section>.left{
         font-size: 3vw;
+        width: 140vw;
     }
 
     .contact-section>.right{
-        font-size: 3vw;
+        font-size: 2vw;
+        display: grid;
+        grid-template-rows: 24% 76%;
+        grid-template-columns: 1fr 1fr;
+        width: 140vw;
+        grid-gap: 3%;
     }
 
+    .contact-section>.right>div:nth-child(1){
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
 
+    .contact-section>.right>div:nth-child(2){
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    .contact-section>.right>div:nth-child(3){
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+
+    .contact-section textarea{
+        height: 22vw;
+    }
 
     .recent-works-content{
         font-size: 4vw;
     }
 
     .footer-section{
-        font-size: 4vw;
+        font-size: 3vw;
+        margin-top: 7vw;
+    }
+
+    .footer-section>p{
+        font-size: 0.5em;
+        align-self: flex-end;
     }
 
     .width-100pc{
