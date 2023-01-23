@@ -13,8 +13,8 @@
             <img src="Images/logo.svg" alt="Logo">
         </nav>
     </header>
-    <div class="container">
-        <section class="over-flow-hidden">
+    <div class="container" id="home">
+        <section class="over-flow-hidden hero-section">
             <img src="Images/Hero-image.svg" alt="" class="width-100pc hero-image">
             <div class="hero-content">
                 <img src="Images/arrow_curved.svg" alt="">
@@ -26,29 +26,32 @@
                     </div>
                 </div>
             </div>
-            <div class="arrow-down">
-                <img src="Images/hero-down-arrow.svg" alt="">
-            </div>
         </section>
 
-        <section class="overflow-hidden">
+        <div class="arrow-down">
+            <img src="Images/hero-down-arrow.svg" alt="">
+        </div>
+
+        <section class="overflow-hidden about-me-container">
             <img src="Images/second-section-image.svg" alt="" class="width-100pc">
-            <img src="Images/musical-sign.svg" alt="" class="musical-sign">
+            <div>
+                <img src="Images/musical-sign.svg" alt="" class="musical-sign">
 
-            <div class="about-me">
-                <h2 class="hero-heading about-me-heading">About 
-                    <span class="color-blue ">
-                        me
-                    </span>
-                </h2>
-            <p class="about-me-para">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.... <span>Read more </span>
-            </p>
-            <img src="Images/lightbulb.svg" alt="" class="light-bulb">
+                <div class="about-me">
+                        <h2 class="hero-heading about-me-heading">About 
+                            <span class="color-blue ">
+                                me
+                            </span>
+                        </h2>
+                    <p class="about-me-para">
+                        I am a creative web developer with a passion for building visually stunning and user-friendly websites. My goal is to create websites that not only look great but also provide a seamless user experience. Whether it's a simple brochure website or a complex web application, I'm here to bring your vision to reality. Browse my portfolio and let's work together to create  <span>something amazing!</span>
+                    </p>
+                    <img src="Images/lightbulb.svg" alt="" class="light-bulb">
+                </div>
+                <img src="Images/about-me-arrow.svg" alt="" class="about-me-arrow">
             </div>
         </section>
-        <img src="Images/about-me-arrow.svg" alt="" class="about-me-arrow">
-
+        
         <section>
             <div class="recent-works-content">
                 <h2 class="hero-heading about-me-heading recent-works-heading">My recent 
@@ -67,35 +70,46 @@
             </div>
         </section>
 
-        <section class="contact-section">
-            <h2 class="hero-heading about-me-heading recent-works-heading">Got a project in  
-                <span class="color-blue ">
-                    mind?
-                </span>
-            </h2>
+        <section class="contact-section" id="contact">
+            <div class="left">
+                <h2 class="hero-heading about-me-heading recent-works-heading">Got a project in  
+                    <span class="color-blue ">
+                        mind?
+                    </span>
+                </h2>
+                <img src="Images/contact.svg" alt="">
+            </div>
 
-            <img src="Images/contact.svg" alt="">
-            <label for="name">Your name</label>
-            <input type="text" name="name" id="" placeholder="Name">
-            <label for="name">Your email</label>
-            <input type="text" name="name" id="" placeholder="Email">
-            <label for="name">Your message</label>
-            <textarea name="message" id="" cols="30" rows="3" placeholder="Message"></textarea>
+            <div class="right">
+                <label for="name">Your name</label>
+                <input type="text" name="name" id="" placeholder="Name">
+                <label for="name">Your email</label>
+                <input type="text" name="name" id="" placeholder="Email">
+                <label for="name">Your message</label>
+                <textarea name="message" id="" cols="30" rows="3" placeholder="Message"></textarea>
+            </div>
         </section>
 
         <footer class="footer-section">
             <div class="footer-nav">
                 <div class="footer-nav-link">
-                    <img src="Images/home-icon.svg" alt="">
-                    <p>Home</p>
+                    <a href="">
+                        <img src="Images/home-icon.svg" alt="">
+                        <p>Home</p>
+                    </a>
                 </div>
                 <div class="footer-nav-link">
+                   <a href="">
                     <img src="Images/user.svg" alt="" class="user-icon">
                     <p>About me</p>
+                   </a>
                 </div>
                 <div class="footer-nav-link">
-                    <img src="Images/phone.svg" alt="">
-                    <p>Contact</p>
+                    <a href="">
+                        <img src="Images/phone.svg" alt="">
+                        <p>Contact</p>
+                    </a>
+                    
                 </div>
             </div>
 
