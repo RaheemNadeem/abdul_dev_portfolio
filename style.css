@@ -85,12 +85,27 @@ html{
 
 .hire-me{
     background-color: rgba(0, 173, 181, 1);
+    border: 3px solid transparent;
+    cursor: pointer;
   
+}
+
+.hire-me:hover{
+    transition: all .2s;
+    border: 3px solid white;
 }
 
 .download-cv{
     background-color: rgba(57, 62, 70, 0.75);
     margin-left: 0.7em;
+    border: 3px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.download-cv:hover{
+    transition: all .2s;
+    border: 3px solid white;
 }
 
 .arrow-down{
@@ -101,6 +116,14 @@ html{
     display: inline-block;
     transform: translate(-50%,0);
     margin-left: 50%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.arrow-down:hover{
+    border:2px solid white;
+    transition: all 0.2s;
 }
 
 .arrow-down>img{
@@ -177,6 +200,7 @@ html{
     border:none;
     font-size: 0.5em;
     line-height: 0.43rem;
+    border:3px solid transparent;
 }
 
 .recent-works-buttons:nth-child(even){
@@ -269,6 +293,7 @@ html{
 
 .footer-nav-link >a{
     display: flex;
+    text-decoration: none;
 }
 
 .footer-nav-link:nth-child(even){
@@ -296,6 +321,13 @@ html{
 .social-link{
     cursor: pointer;
     width: 1.7em;
+    border:3px solid transparent;
+    border-radius: 30px;
+}
+
+.social-link:hover{
+    border:3px solid white;
+    transition: 0.2s all;
 }
 
 .footer-section > p {
@@ -485,4 +517,31 @@ html{
     }
 
  }
+
+ @media (min-width: 1150px) {
+    .width-100pc {
+        width: 60%;
+    }
+
+ }
+
+ @media (min-width: 1240px) {
+    .width-100pc {
+        width: 60%;
+      }
+
+    .hero-content {
+        font-size: 1.7vw;
+    }
+
+    .hero-content > img {
+        height: 13vw;
+    }
+
+    .width-100pc {
+        width: 50%;
+    }
+
+ }
+
 
