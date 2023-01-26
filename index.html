@@ -117,8 +117,8 @@
                     <p>About me</p>
                    </a>
                 </div>
-                <div class="footer-nav-link" id="contact-icon">
-                    <a href="">
+                <div class="footer-nav-link" >
+                    <a href="" id="contact-icon">
                         <img src="Images/phone.svg" alt="">
                         <p>Contact</p>
                     </a>
@@ -161,6 +161,7 @@
         })
 
         document.getElementById("contact-icon").addEventListener("click",function(){
+            event.preventDefault();
             document.getElementById("contact").scrollIntoView({ behavior: 'smooth' });
         })
         
