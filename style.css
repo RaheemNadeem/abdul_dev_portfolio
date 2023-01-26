@@ -215,6 +215,23 @@ html{
     margin-left:unset;
 }
 
+.recent-work-container{
+    padding-top: 2.3em;
+    display: flex;
+}
+
+.recent-work-container>img{
+    width: 80%;
+    background-color: #393E46;
+    padding: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.recent-work-container>img:hover{
+    border: 2px solid #f0f8ff2b;
+}
 
 .contact-section {
     margin-top: 5.93rem;
@@ -382,11 +399,18 @@ html{
     html{
         font-size: 4.5vw;
     }
+    .recent-work-container>img{
+        width: 66%;
+    }
  }
  
  @media (min-width: 600px) {
     html{
         font-size: 3.5vw;
+    }
+
+    .recent-work-container>img{
+        width: 60%;
     }
 
     .about-me,.recent-works-content{
@@ -420,11 +444,19 @@ html{
         width: 75%;
     }
 
+    .recent-work-container>img{
+        width: 55%;
+    }
+
  }
 
  @media (min-width: 750px) {
     html{
         font-size: 3vw;
+    }
+
+    .recent-work-container>img{
+        width: 40%;
     }
 
     .hero-section{
