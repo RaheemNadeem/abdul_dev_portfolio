@@ -10,8 +10,18 @@
 </head>
 <body>    
     <header>
-        <nav class="nav-bar">
+        <div class="nav-bar border-bottom-line" id="nav-bar">
             <img src="Images/logo.svg" alt="Logo" id="logo" class="cursor-pointer">
+            <div id="menu-icon-container" class="menu-icon-container">
+                <img src="/Images/ham_burger_menu.svg" alt="Start Logo" class="nav-menu-icon" id="menuImage" onclick="navClick()">
+            </div>
+        </div>
+        <nav id="mobile-menu-container" class="display-none">
+            <div class="mobile-menu">
+                <label for="">Home</label>
+                <label for="">About Me</label>
+                <label for="">Contact</label>
+            </div>
         </nav>
     </header>
     <div class="container" id="home">
@@ -164,6 +174,20 @@
             event.preventDefault();
             document.getElementById("contact").scrollIntoView({ behavior: 'smooth' });
         })
+
+        function navClick(){
+            document.getElementById("mobile-menu-container").classList.toggle("border-bottom-line");
+            document.getElementById("mobile-menu-container").classList.toggle("display-none");
+            var navMenu = document.getElementById("nav-bar");
+            navMenu.classList.toggle("border-bottom-line");
+            navMenu.classList.toggle("padding-bottom-0o2rem");
+            document.getElementById("menu-icon-container").classList.toggle("menu-icon-click");
+
+            const div = document.getElementById("menu-icon-container");
+            const divWidth = div.offsetWidth;
+
+            div.style.setProperty("--after-width", `${divWidth}px`);
+        }
         
     </script>    
 </body>
