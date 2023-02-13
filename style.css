@@ -115,7 +115,7 @@ header > nav{
     content: '';
     width: var(--after-width);
     height: 2rem;
-    display: block;
+    display: var(--after-display);
     position: absolute;
     background-color: #29303c;
     left:0;
