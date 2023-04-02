@@ -203,7 +203,7 @@ header > nav{
 }
 
 .arrow-down>img{
-    width: 0.8em;
+    width: 1.8em;
 }
 
 .over-flow-hidden{
@@ -593,11 +593,7 @@ header > nav{
         margin-top: unset;
     }
 
-    .about-me-container{
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
+    
     .about-me-container>.width-100pc{
         width: 47%;
         align-self: baseline;
